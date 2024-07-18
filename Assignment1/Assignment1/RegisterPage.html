@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <h2>Register Page</h2>
+    <form action="/RegisterPage.html" method="post" enctype="multipart/form-data">
+    <p><ins>Fields with Asterisk (*) are required</ins></p>
+        <div>
+            <label for="first_name">First Name<span style="color: red;">*</span>:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Enter First Name" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="last_name">Last Name<span style="color: red;">*</span>:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Enter Last Name" required>
+        </div>
+        <br>
+
+
+        <div>
+            <label for="email">E-mail<span style="color: red;">*</span>:</label>
+            <input type="email" id="email" name="email" placeholder="E.g ****@gmail.com" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Password<span style="color: red;">*</span>:</label>
+            <input type="password" id="password" name="password" placeholder="********" required>
+        </div> 
+        <br>
+
+        <div>
+            <label for="confirm_password">Confirm Password<span style="color: red;">*</span>:</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="********" required>
+        </div> 
+        <br>
+
+        <div>
+            <label for="dob">Date of Birth<span style="color: red;">*</span>:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+
+            <br>
+
+            <div>
+                <label for="gender">Gender<span style="color: red;">*</span>:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div> 
+            <br>
+
+            <div>
+                <label for="phone">Phone<span style="color: red;">*</span>:</label>
+                <input type="tel" id="phone" name="phone" placeholder="0803****729" required>
+            </div> 
+            <br>
+
+            <div>
+                <label for="country">Country<span style="color: red;">*</span>:</label>
+                <select id="country" name="country">
+                    <option value="" disabled selected>Country<br><br></option>
+                    <option value="AR">Argentina</option>
+                    <option value="BR">Brazil</option>
+                    <option value="CA">Canada</option>
+                    <option value="DK">Denmark</optionn>
+                    <option value="NG">Nigeria</option>
+                </select> 
+            </div>
+            <br>
+
+            <div>
+                <label for="home_address">Home Address<span style="color: red;">*</span>:</label>
+                <br>
+                <textarea id="home_address" name="home_address" rows="2" cols="50" placeholder="Enter your Home Address" required></textarea>
+            </div>
+            <br>
+
+            <div>
+                <label for="skills">Skills:</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="hr" name="skills" value="HR">
+                <label for="hr">HR</label>
+            <br>
+                <input type="checkbox" id="web_development" name="skills" value="WEB DEVELOPMENT">
+                <label for="web_development">WEB/SOFTWARE DEVELOPMENT</label>
+            <br>
+                <input type="checkbox" id="ui_ux" name="skills" value="UI/UX DESIGN">
+                <label for="ui_ux">UI/UX DESIGN</label>
+            </div>
+            <br>
+
+            <div>
+                <label for="favorite_color">Favorite Color:</label>
+                <input type="color" id="favorite_color" name="favorite_color">
+            </div>
+            <br>
+
+            <div>
+                <label for="profile_image">Upload Profile Image<span style="color: red;">*</span>:</label>
+                <input type="file" id="profile_image" name="profile_image" accept="image/*" required>
+            </div>
+            <br>
+
+            <div>
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I accept the Terms of Use & Privacy Policy<span style="color: red;">*</span></label>
+            </div>
+            <br>
+
+            <div>
+                <button type="submit" style="background-color: blue; color: white;">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="reset"><span style="color: red;">Reset</span></button>
+            </div> 
+        <p>Already have an account? &nbsp;&nbsp;<a href="./LoginPage.html"><span style="color: red;">Login</span></a></p>
+    </form>
+</body>
+</html>
