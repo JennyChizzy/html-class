@@ -1,10 +1,17 @@
+Types of css
 1. External CSS
  2. Internal CSS
  3. Inline CSS
 
- //Css selector
+ //Css selectors
  1. id selector
  2. class selector
  3. tag selector
  4. attribute selector
  5. pseudo class selector
+
+ 3f78ba
+
+ 135aa5
+
+ 47abdf
